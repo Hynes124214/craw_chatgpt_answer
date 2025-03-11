@@ -1,0 +1,8 @@
+Terminal: 
+    lệnh mở cổng 9222: start chrome --remote-debugging-port=9222
+    lệnh chạy chương trình: uvicorn main:app --host 103.249.158.68 --port 8005 --reload
+    nếu thiếu thư viện thì chạy lệnh: pip install <tên thư viện>
+        nếu cài đặt thư viện rồi mà vẫn thấy code báo thiếu thì chạy lần lượt các lệnh:
+            "python -m venv env"
+            ".\env\Scripts\activate" 
+            sau đấy thực hiện cài lại các thư viện
